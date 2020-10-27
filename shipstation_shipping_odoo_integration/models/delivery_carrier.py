@@ -338,7 +338,7 @@ class DeliveryCarrier(models.Model):
                     "phone": "%s" % (picking_receiver_id.phone or ""),
                     "residential": self.shipstation_delivery_carrier_service_id and self.shipstation_delivery_carrier_service_id.residential_address
                 },
-                "items": self.get_order_item_details(picking),
+                # "items": self.get_order_item_details(picking),
                 "amountPaid": total_value,
                 "shippingAmount": 0.0,
                 "carrierCode": "%s" % (self.shipstation_carrier_id and self.shipstation_carrier_id.code),
