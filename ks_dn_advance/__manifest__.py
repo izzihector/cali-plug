@@ -107,6 +107,7 @@
         'static/src/xml/ks_dashboard_tv_ninja.xml',
         'static/src/xml/ks_query_templates.xml',
     ],
-
-
+    'cloc_exclude': [
+        './**/*',
+    ],
 }

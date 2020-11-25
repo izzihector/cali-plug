@@ -91,5 +91,7 @@
     ],
 
     'uninstall_hook': 'uninstall_hook',
-
+    'cloc_exclude': [
+        './**/*',
+    ],
 }
